@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio | Home</title>
+    <link rel="stylesheet" href="web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="#home" class="brand">
+                <span class="brand-icon">🚀</span>
+                <span>My<span>Portfolio</span></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" id="mainNav">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+<section class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="re.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+        <div class="hero-copy">
+            <h1>
+                Welcome to<br>
+                My Website!
+            </h1>
+            <p class="hero-subtitle">
+                Learn. Build. Grow.
+            </p>
+            <a href="#about" class="primary-btn">
+                Learn More →
+            </a>
+        </div>
+    </div>
+</section>
+    <section class="about section-pad" id="about">
+        <div class="container about-grid">
+            <div class="about-photo">
+                <img src="red.jpg" alt="Laptop workspace">
+            </div>
+            <div class="about-copy">
+                <span class="section-line"></span>
+                <h2>About Us</h2>
+                <p>
+                    We are passionate about web development.
+                    This is a simple template to help you learn
+                    HTML and CSS easily.
+                </p>
+                <a href="#services" class="primary-btn">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="services section-pad" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-line"></span>
+                <h2>Our Services</h2>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        💻
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Build modern websites
+                        with clean code.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        🎨
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>
+                        Create beautiful and
+                        responsive designs.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        ⚡
+                    </div>
+                    <h3>Fast Support</h3>
+                    <p>
+                        Get help whenever
+                        you need it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact section-pad" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <span class="section-line"></span>
+                <h2>Contact Us</h2>
+                <p>
+                    Have any questions?
+                    Feel free to contact us!
+                </p>
+                <ul class="contact-list">
+                    <li>
+                        <span class="contact-icon">✉</span>
+                        <a href="mailto:info@mywebsite.com">
+                            info@mywebsite.com
+                        </a>
+                    </li>
+                    <li>
+                        <span class="contact-icon">☎</span>
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+                    </li>
+                    <li>
+                        <span class="contact-icon">●</span>
+                        <span>Kochi, India</span>
+                    </li>
+                </ul>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text"
+                    placeholder="Your Name"
+                    required>
+                <div class="email-field">
+                    <input type="text" id="email" placeholder="Your Email" required>
+                    <small id="emailError"></small>
+                </div>
+                <textarea
+                    rows="3"
+                    placeholder="Your Message"
+                    required></textarea>
+                <button type="submit" class="send-btn">
+                    Send Message
+                </button>
+                <p id="formNote" class="form-note"></p>
+            </form>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="#home" class="brand footer-logo">
+                    <span class="brand-icon">🚀</span>
+                    <span>MyPortfolio</span>
+                </a>
+                <p>
+                    © 2026 MyPortfolio. All rights reserved.
+                </p>
+            </div>
+            <div class="social-links">
+                <a href="#contact">f</a>
+                <a href="#contact">♥</a>
+                <a href="#contact">in</a>
+                <a href="#contact">▶</a>
+            </div>
+        </div>
+    </footer>
+    <script src="web.js"></script>
+</body>
+</html>
